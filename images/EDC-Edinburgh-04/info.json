@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 250,
+    "height" : 250
+  }, {
+    "width" : 500,
+    "height" : 500
+  }, {
+    "width" : 1000,
+    "height" : 1000
+  }, {
+    "width" : 2000,
+    "height" : 2000
+  }, {
+    "width" : 4000,
+    "height" : 4000
+  }, {
+    "width" : 8000,
+    "height" : 8000
+  } ],
+  "profile" : "level0",
+  "width" : 8000,
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 8000
+}

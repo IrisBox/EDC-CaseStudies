@@ -1,0 +1,676 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-Edinburgh-Manifest.json",
+  "type" : "Manifest",
+  "behavior" : [ "paged" ],
+  "label" : {
+    "en" : [ "EDC-Edinburgh" ]
+  },
+  "summary" : {
+    "en" : [ "Images relating to Andy Corrigan's case study of the digital landscape at the University of Edinburgh." ]
+  },
+  "rights" : "Andy Corrigan (CC BY-NC 4.0)",
+  "navDate" : "2024-11-26T00:00:00.000Z",
+  "thumbnail" : [ {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/full/max/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 8000,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "" ]
+    },
+    "service" : [ {
+      "tiles" : [ {
+        "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+        "width" : 1024,
+        "height" : 1024
+      } ],
+      "protocol" : "http://iiif.io/api/image",
+      "sizes" : [ {
+        "width" : 250,
+        "height" : 250
+      }, {
+        "width" : 500,
+        "height" : 500
+      }, {
+        "width" : 1000,
+        "height" : 1000
+      }, {
+        "width" : 2000,
+        "height" : 2000
+      }, {
+        "width" : 4000,
+        "height" : 4000
+      }, {
+        "width" : 8000,
+        "height" : 8000
+      } ],
+      "profile" : "level0",
+      "width" : 8000,
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01",
+      "type" : "ImageService3",
+      "@context" : "http://iiif.io/api/image/3/context.json",
+      "height" : 8000
+    } ]
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/2uth5d9f82y-m88gp6jf",
+    "type" : "Canvas",
+    "height" : 8000,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "EDC-Edinburgh-01" ]
+    },
+    "summary" : {
+      "en" : [ "The journey from Cambridge to Edinburgh (20/11/2024 - 21/11/2024)." ]
+    },
+    "rights" : "Andy Corrigan (CC BY-NC 4.0)",
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/full/max/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 8000,
+      "width" : 8000,
+      "label" : {
+        "en" : [ "" ]
+      },
+      "service" : [ {
+        "tiles" : [ {
+          "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+          "width" : 1024,
+          "height" : 1024
+        } ],
+        "protocol" : "http://iiif.io/api/image",
+        "sizes" : [ {
+          "width" : 250,
+          "height" : 250
+        }, {
+          "width" : 500,
+          "height" : 500
+        }, {
+          "width" : 1000,
+          "height" : 1000
+        }, {
+          "width" : 2000,
+          "height" : 2000
+        }, {
+          "width" : 4000,
+          "height" : 4000
+        }, {
+          "width" : 8000,
+          "height" : 8000
+        } ],
+        "profile" : "level0",
+        "width" : 8000,
+        "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01",
+        "type" : "ImageService3",
+        "@context" : "http://iiif.io/api/image/3/context.json",
+        "height" : 8000
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/2uth5d9f82y-m88gp6jf/annotation-page/widipvozfu-m88gp6jf",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/uftalq1dss-m88gmds2/annotation/v1wnk9gubs-m88gp6je",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/uftalq1dss-m88gmds2/canvas/2uth5d9f82y-m88gp6jf",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8000,
+          "width" : 8000,
+          "label" : {
+            "en" : [ "" ]
+          },
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 250
+            }, {
+              "width" : 500,
+              "height" : 500
+            }, {
+              "width" : 1000,
+              "height" : 1000
+            }, {
+              "width" : 2000,
+              "height" : 2000
+            }, {
+              "width" : 4000,
+              "height" : 4000
+            }, {
+              "width" : 8000,
+              "height" : 8000
+            } ],
+            "profile" : "level0",
+            "width" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8000
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/uapwh31ssj-m88gpja9",
+    "type" : "Canvas",
+    "height" : 8000,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "EDC-Edinburgh-02" ]
+    },
+    "summary" : {
+      "en" : [ "The Scotsman Steps (22/11/2024) - the pungent route between levels." ]
+    },
+    "rights" : "Andy Corrigan (CC BY-NC 4.0)",
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/full/max/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 8000,
+      "width" : 8000,
+      "service" : [ {
+        "tiles" : [ {
+          "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+          "width" : 1024,
+          "height" : 1024
+        } ],
+        "protocol" : "http://iiif.io/api/image",
+        "sizes" : [ {
+          "width" : 250,
+          "height" : 250
+        }, {
+          "width" : 500,
+          "height" : 500
+        }, {
+          "width" : 1000,
+          "height" : 1000
+        }, {
+          "width" : 2000,
+          "height" : 2000
+        }, {
+          "width" : 4000,
+          "height" : 4000
+        }, {
+          "width" : 8000,
+          "height" : 8000
+        } ],
+        "profile" : "level0",
+        "width" : 8000,
+        "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02",
+        "type" : "ImageService3",
+        "@context" : "http://iiif.io/api/image/3/context.json",
+        "height" : 8000
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/uapwh31ssj-m88gpja9/annotation-page/nt5wi1bpcri-m88gpja9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/uftalq1dss-m88gmds2/annotation/94oqvgdffan-m88gpja8",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/uftalq1dss-m88gmds2/canvas/uapwh31ssj-m88gpja9",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8000,
+          "width" : 8000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 250
+            }, {
+              "width" : 500,
+              "height" : 500
+            }, {
+              "width" : 1000,
+              "height" : 1000
+            }, {
+              "width" : 2000,
+              "height" : 2000
+            }, {
+              "width" : 4000,
+              "height" : 4000
+            }, {
+              "width" : 8000,
+              "height" : 8000
+            } ],
+            "profile" : "level0",
+            "width" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8000
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/g68kz9cye75-m88go01w",
+    "type" : "Canvas",
+    "height" : 8000,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "EDC-Edinburgh-03" ]
+    },
+    "summary" : {
+      "en" : [ "Exploring the National Museum of Scotland (21/11/2024). The facilities were handy, and the curatorial concepts inspiring. " ]
+    },
+    "rights" : "Andy Corrigan (CC BY-NC 4.0)",
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/full/max/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 8000,
+      "width" : 8000,
+      "service" : [ {
+        "tiles" : [ {
+          "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+          "width" : 1024,
+          "height" : 1024
+        } ],
+        "protocol" : "http://iiif.io/api/image",
+        "sizes" : [ {
+          "width" : 250,
+          "height" : 250
+        }, {
+          "width" : 500,
+          "height" : 500
+        }, {
+          "width" : 1000,
+          "height" : 1000
+        }, {
+          "width" : 2000,
+          "height" : 2000
+        }, {
+          "width" : 4000,
+          "height" : 4000
+        }, {
+          "width" : 8000,
+          "height" : 8000
+        } ],
+        "profile" : "level0",
+        "width" : 8000,
+        "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03",
+        "type" : "ImageService3",
+        "@context" : "http://iiif.io/api/image/3/context.json",
+        "height" : 8000
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/g68kz9cye75-m88go01w/annotation-page/uajppz570oi-m88go01w",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/uftalq1dss-m88gmds2/annotation/gj6lm9043v9-m88go01v",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/uftalq1dss-m88gmds2/canvas/g68kz9cye75-m88go01w",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8000,
+          "width" : 8000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 250
+            }, {
+              "width" : 500,
+              "height" : 500
+            }, {
+              "width" : 1000,
+              "height" : 1000
+            }, {
+              "width" : 2000,
+              "height" : 2000
+            }, {
+              "width" : 4000,
+              "height" : 4000
+            }, {
+              "width" : 8000,
+              "height" : 8000
+            } ],
+            "profile" : "level0",
+            "width" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8000
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/14uomqrhnth-m88gpqne",
+    "type" : "Canvas",
+    "height" : 8000,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "EDC-Edinburgh-04" ]
+    },
+    "summary" : {
+      "en" : [ "At the University of Edinburgh. I visited two buildings, the main Library, and the Edinburgh Futures Institute. (21, 22 & 25/11/2024)" ]
+    },
+    "rights" : "Andy Corrigan (CC BY-NC 4.0)",
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/full/max/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 8000,
+      "width" : 8000,
+      "service" : [ {
+        "tiles" : [ {
+          "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+          "width" : 1024,
+          "height" : 1024
+        } ],
+        "protocol" : "http://iiif.io/api/image",
+        "sizes" : [ {
+          "width" : 250,
+          "height" : 250
+        }, {
+          "width" : 500,
+          "height" : 500
+        }, {
+          "width" : 1000,
+          "height" : 1000
+        }, {
+          "width" : 2000,
+          "height" : 2000
+        }, {
+          "width" : 4000,
+          "height" : 4000
+        }, {
+          "width" : 8000,
+          "height" : 8000
+        } ],
+        "profile" : "level0",
+        "width" : 8000,
+        "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04",
+        "type" : "ImageService3",
+        "@context" : "http://iiif.io/api/image/3/context.json",
+        "height" : 8000
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/14uomqrhnth-m88gpqne/annotation-page/z91u7urb98-m88gpqne",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/uftalq1dss-m88gmds2/annotation/f7r9e8pnrau-m88gpqnd",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/uftalq1dss-m88gmds2/canvas/14uomqrhnth-m88gpqne",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8000,
+          "width" : 8000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 250
+            }, {
+              "width" : 500,
+              "height" : 500
+            }, {
+              "width" : 1000,
+              "height" : 1000
+            }, {
+              "width" : 2000,
+              "height" : 2000
+            }, {
+              "width" : 4000,
+              "height" : 4000
+            }, {
+              "width" : 8000,
+              "height" : 8000
+            } ],
+            "profile" : "level0",
+            "width" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8000
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/aajvtyonxtb-m88gufr9",
+    "type" : "Canvas",
+    "height" : 8000,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "EDC-Edinburgh-05" ]
+    },
+    "summary" : {
+      "en" : [ "Out and about. The other places and the one's in-between (21-25/11/2024)." ]
+    },
+    "rights" : "Andy Corrigan (CC BY-NC 4.0)",
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-05/full/max/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 8000,
+      "width" : 8000,
+      "service" : [ {
+        "tiles" : [ {
+          "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+          "width" : 1024,
+          "height" : 1024
+        } ],
+        "protocol" : "http://iiif.io/api/image",
+        "sizes" : [ {
+          "width" : 250,
+          "height" : 250
+        }, {
+          "width" : 500,
+          "height" : 500
+        }, {
+          "width" : 1000,
+          "height" : 1000
+        }, {
+          "width" : 2000,
+          "height" : 2000
+        }, {
+          "width" : 4000,
+          "height" : 4000
+        }, {
+          "width" : 8000,
+          "height" : 8000
+        } ],
+        "profile" : "level0",
+        "width" : 8000,
+        "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-05",
+        "type" : "ImageService3",
+        "@context" : "http://iiif.io/api/image/3/context.json",
+        "height" : 8000
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/aajvtyonxtb-m88gufr9/annotation-page/j4v3k84ur9-m88gufr9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/uftalq1dss-m88gmds2/annotation/94nfapvk6j8-m88gufr8",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/uftalq1dss-m88gmds2/canvas/aajvtyonxtb-m88gufr9",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-05/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8000,
+          "width" : 8000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 250
+            }, {
+              "width" : 500,
+              "height" : 500
+            }, {
+              "width" : 1000,
+              "height" : 1000
+            }, {
+              "width" : 2000,
+              "height" : 2000
+            }, {
+              "width" : 4000,
+              "height" : 4000
+            }, {
+              "width" : 8000,
+              "height" : 8000
+            } ],
+            "profile" : "level0",
+            "width" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-05",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8000
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/xib5rxjvz9-m88gulm9",
+    "type" : "Canvas",
+    "height" : 8000,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "EDC-Edinburgh-06" ]
+    },
+    "summary" : {
+      "en" : [ "The journey from Edinburgh to Cambridge (25/11/2024)." ]
+    },
+    "rights" : "Andy Corrigan (CC BY-NC 4.0)",
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-06/full/max/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 8000,
+      "width" : 8000,
+      "service" : [ {
+        "tiles" : [ {
+          "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+          "width" : 1024,
+          "height" : 1024
+        } ],
+        "protocol" : "http://iiif.io/api/image",
+        "sizes" : [ {
+          "width" : 250,
+          "height" : 250
+        }, {
+          "width" : 500,
+          "height" : 500
+        }, {
+          "width" : 1000,
+          "height" : 1000
+        }, {
+          "width" : 2000,
+          "height" : 2000
+        }, {
+          "width" : 4000,
+          "height" : 4000
+        }, {
+          "width" : 8000,
+          "height" : 8000
+        } ],
+        "profile" : "level0",
+        "width" : 8000,
+        "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-06",
+        "type" : "ImageService3",
+        "@context" : "http://iiif.io/api/image/3/context.json",
+        "height" : 8000
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/uftalq1dss-m88gmds2/canvas/xib5rxjvz9-m88gulm9/annotation-page/ti3rr3ohti-m88gulm9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/uftalq1dss-m88gmds2/annotation/o18tm5w1v2d-m88gulm9",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/uftalq1dss-m88gmds2/canvas/xib5rxjvz9-m88gulm9",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-06/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8000,
+          "width" : 8000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 250
+            }, {
+              "width" : 500,
+              "height" : 500
+            }, {
+              "width" : 1000,
+              "height" : 1000
+            }, {
+              "width" : 2000,
+              "height" : 2000
+            }, {
+              "width" : 4000,
+              "height" : 4000
+            }, {
+              "width" : 8000,
+              "height" : 8000
+            } ],
+            "profile" : "level0",
+            "width" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-06",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8000
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}

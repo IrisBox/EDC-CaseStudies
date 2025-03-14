@@ -1,0 +1,15 @@
+{
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in IrisBox/EDC-CaseStudies project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-Edinburgh-Manifest.json",
+    "label" : {
+      "en" : [ "EDC-Edinburgh" ]
+    },
+    "type" : "Manifest"
+  } ]
+}

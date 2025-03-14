@@ -3,7 +3,7 @@
     "id": "https://example.org/uftalq1dss-m88gmds2",
     "type": "Manifest",
     "behavior": [
-        "continuous"
+        "individuals"
     ],
     "label": {
         "en": [
@@ -11,43 +11,19 @@
         ]
     },
     "metadata": [
-        {
-            "label": {
-                "en": [
-                    "Description"
-                ]
+            {
+             "label": {"en": ["Description"]},
+             "value": {"en": ["Images relating to Andy Corrigan's case study of the digital landscape at the University of Edinburgh."]}
             },
-            "value": {
-                "en": [
-                    "Images relating to Andy Corrigan's case study of the digital landscape at the University of Edinburgh."
-                ]
-            }
-        },
-        {
-            "label": {
-                "en": [
-                    "Creator"
-                ]
+            { 
+             "label": {"en": ["Creator"]},
+             "value": {"en": ["Andy Corrigan"]}
             },
-            "value": {
-                "en": [
-                    "Andy Corrigan"
-                ]
-            }
-        },
-        {
-            "label": {
-                "en": [
-                    "Date of Creation"
-                ]
-            },
-            "value": {
-                "en": [
-                    "20/11/2024 - 25/11/2024"
-                ]
-            }
-        }
-    ],
+            { 
+             "label": {"en": ["Date of Creation"]},
+             "value": {"en": ["20/11/2024 - 25/11/2024"]}
+             }
+                ],
     "summary": {
         "en": [
             "Images relating to Andy Corrigan's case study of the digital landscape at the University of Edinburgh."

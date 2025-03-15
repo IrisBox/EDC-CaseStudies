@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://irisbox.github.io/EDC-CaseStudies/manifests/EDC-Edinburgh-Manifest",
+    "id": "https://irisbox.github.io/EDC-CaseStudies/manifests/EDC-Edinburgh-Manifest.json",
     "type": "Manifest",
     "behavior": [
         "individuals"

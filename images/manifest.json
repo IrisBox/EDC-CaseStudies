@@ -90,26 +90,26 @@
             ]
         },
         {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/canvas/",
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "EDC-Edinburgh-04"
+                    "EDC-Edinburgh-02"
                 ]
             },
             "height": 8000,
             "width": 8000,
             "items": [
                 {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/annotation/AnnoPage",
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/annotation/",
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/full/max/0/default.jpg",
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -156,7 +156,7 @@
                                         ],
                                         "profile": "level0",
                                         "width": 8000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04",
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02",
                                         "type": "ImageService3",
                                         "@context": "http://iiif.io/api/image/3/context.json",
                                         "height": 8000
@@ -164,7 +164,88 @@
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/canvas/"
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "EDC-Edinburgh-03"
+                ]
+            },
+            "height": 8000,
+            "width": 8000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 250,
+                                                "height": 250
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 500
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 1000
+                                            },
+                                            {
+                                                "width": 2000,
+                                                "height": 2000
+                                            },
+                                            {
+                                                "width": 4000,
+                                                "height": 4000
+                                            },
+                                            {
+                                                "width": 8000,
+                                                "height": 8000
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 8000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 8000
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/canvas/"
                         }
                     ]
                 }
@@ -252,26 +333,26 @@
             ]
         },
         {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/canvas/",
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "EDC-Edinburgh-02"
+                    "EDC-Edinburgh-04"
                 ]
             },
             "height": 8000,
             "width": 8000,
             "items": [
                 {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/annotation/AnnoPage",
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/annotation/",
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/full/max/0/default.jpg",
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -318,7 +399,7 @@
                                         ],
                                         "profile": "level0",
                                         "width": 8000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02",
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04",
                                         "type": "ImageService3",
                                         "@context": "http://iiif.io/api/image/3/context.json",
                                         "height": 8000
@@ -326,7 +407,7 @@
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/canvas/"
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/canvas/"
                         }
                     ]
                 }
@@ -414,26 +495,26 @@
             ]
         },
         {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/canvas/",
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "EDC-Edinburgh-03"
+                    "EDC-Symposium-BigMe-LittleMe-000"
                 ]
             },
             "height": 8000,
-            "width": 8000,
+            "width": 10000,
             "items": [
                 {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/annotation/AnnoPage",
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/annotation/",
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/full/max/0/default.jpg",
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -454,33 +535,33 @@
                                         "protocol": "http://iiif.io/api/image",
                                         "sizes": [
                                             {
-                                                "width": 250,
+                                                "width": 313,
                                                 "height": 250
                                             },
                                             {
-                                                "width": 500,
+                                                "width": 625,
                                                 "height": 500
                                             },
                                             {
-                                                "width": 1000,
+                                                "width": 1250,
                                                 "height": 1000
                                             },
                                             {
-                                                "width": 2000,
+                                                "width": 2500,
                                                 "height": 2000
                                             },
                                             {
-                                                "width": 4000,
+                                                "width": 5000,
                                                 "height": 4000
                                             },
                                             {
-                                                "width": 8000,
+                                                "width": 10000,
                                                 "height": 8000
                                             }
                                         ],
                                         "profile": "level0",
-                                        "width": 8000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03",
+                                        "width": 10000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000",
                                         "type": "ImageService3",
                                         "@context": "http://iiif.io/api/image/3/context.json",
                                         "height": 8000
@@ -488,7 +569,7 @@
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/canvas/"
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/canvas/"
                         }
                     ]
                 }

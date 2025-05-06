@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 313,
+    "height" : 250
+  }, {
+    "width" : 625,
+    "height" : 500
+  }, {
+    "width" : 1250,
+    "height" : 1000
+  }, {
+    "width" : 2500,
+    "height" : 2000
+  }, {
+    "width" : 5000,
+    "height" : 4000
+  }, {
+    "width" : 10000,
+    "height" : 8000
+  } ],
+  "profile" : "level0",
+  "width" : 10000,
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 8000
+}

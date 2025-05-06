@@ -414,6 +414,87 @@
             ]
         },
         {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "EDC-Symposium-Cyanotypes-Paper-000"
+                ]
+            },
+            "height": 8750,
+            "width": 10000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 313,
+                                                "height": 274
+                                            },
+                                            {
+                                                "width": 625,
+                                                "height": 547
+                                            },
+                                            {
+                                                "width": 1250,
+                                                "height": 1094
+                                            },
+                                            {
+                                                "width": 2500,
+                                                "height": 2188
+                                            },
+                                            {
+                                                "width": 5000,
+                                                "height": 4375
+                                            },
+                                            {
+                                                "width": 10000,
+                                                "height": 8750
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 10000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 8750
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/canvas/",
             "type": "Canvas",
             "label": {

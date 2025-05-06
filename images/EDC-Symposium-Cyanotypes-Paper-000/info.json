@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 313,
+    "height" : 274
+  }, {
+    "width" : 625,
+    "height" : 547
+  }, {
+    "width" : 1250,
+    "height" : 1094
+  }, {
+    "width" : 2500,
+    "height" : 2188
+  }, {
+    "width" : 5000,
+    "height" : 4375
+  }, {
+    "width" : 10000,
+    "height" : 8750
+  } ],
+  "profile" : "level0",
+  "width" : 10000,
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 8750
+}

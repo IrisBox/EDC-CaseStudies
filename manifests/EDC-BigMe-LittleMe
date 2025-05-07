@@ -1,0 +1,109 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-BigMe-LittleMe",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "EDC: Big Me, Little Me" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Description" ]
+    },
+    "value" : {
+      "en" : [ "Activity 2: Big Me Little Me, at the Encountering Digital Collections Symposium on 17/09/2024. A visual record consisting of photographs taken during the activity and some of the outputs, which include scanned photographic prints." ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Creator" ]
+    },
+    "value" : {
+      "en" : [ "Judith Weik and attendees of the EDC Symposium" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Date of Creation" ]
+    },
+    "value" : {
+      "en" : [ "17/09/2024" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "Activity 2: Big Me Little Me, at the Encountering Digital Collections Symposium on 17/09/2024" ]
+  },
+  "thumbnail" : [ {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/full/313,/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 250,
+    "width" : 313
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/qfbow24qmri-m8hv0x5w/canvas/0h85bp33bjzb-m8hv5g5e",
+    "type" : "Canvas",
+    "height" : 8000,
+    "width" : 10000,
+    "label" : {
+      "en" : [ "Big Me, Little Me" ]
+    },
+    "summary" : {
+      "en" : [ "Activity 2: Big Me Little Me, at the Encountering Digital Collections Symposium on 17/09/2024. A visual record consisting of photographs taken during the activity and some of the outputs, which include scanned photographic prints." ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/full/313,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 250,
+      "width" : 313
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/qfbow24qmri-m8hv0x5w/canvas/0h85bp33bjzb-m8hv5g5e/annotation-page/4s9z1nl85jb-m8hv5g5e",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/qfbow24qmri-m8hv0x5w/annotation/yu44ywtcp2-m8hv5g5d",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/qfbow24qmri-m8hv0x5w/canvas/0h85bp33bjzb-m8hv5g5e",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8000,
+          "width" : 10000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 313,
+              "height" : 250
+            }, {
+              "width" : 625,
+              "height" : 500
+            }, {
+              "width" : 1250,
+              "height" : 1000
+            }, {
+              "width" : 2500,
+              "height" : 2000
+            }, {
+              "width" : 5000,
+              "height" : 4000
+            }, {
+              "width" : 10000,
+              "height" : 8000
+            } ],
+            "profile" : "http://iiif.io/api/image/3/level0.json",
+            "width" : 10000,
+            "@id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}

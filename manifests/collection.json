@@ -11,5 +11,11 @@
       "en" : [ "EDC-Edinburgh" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-BigMe-LittleMe.json",
+    "label" : {
+      "en" : [ "Big Me, Little Me" ]
+    },
+    "type" : "Manifest"
   } ]
 }

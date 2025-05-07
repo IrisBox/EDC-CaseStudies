@@ -23,5 +23,11 @@
       "en" : [ "Big Me, Little Me" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-BigMe-LittleMe",
+    "label" : {
+      "en" : [ "EDC: Big Me, Little Me" ]
+    },
+    "type" : "Manifest"
   } ]
 }

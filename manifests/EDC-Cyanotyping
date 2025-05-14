@@ -1,0 +1,121 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-Cyanotyping",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Cyanotyping" ]
+  },
+  "summary" : {
+    "en" : [ "Photos from Activity 1: Casting Light on Digital Ghosts at the Encountering Digital Collections symposium on 17/09/2024." ]
+  },
+  "rights" : "Photo's courtesy of CRASSH, © Judith Weik",
+  "thumbnail" : [ {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/full/max/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 6655,
+    "width" : 8000,
+    "service" : [ {
+      "tiles" : [ {
+        "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+        "width" : 1024,
+        "height" : 1024
+      } ],
+      "protocol" : "http://iiif.io/api/image",
+      "sizes" : [ {
+        "width" : 250,
+        "height" : 208
+      }, {
+        "width" : 500,
+        "height" : 416
+      }, {
+        "width" : 1000,
+        "height" : 832
+      }, {
+        "width" : 2000,
+        "height" : 1664
+      }, {
+        "width" : 4000,
+        "height" : 3328
+      }, {
+        "width" : 8000,
+        "height" : 6655
+      } ],
+      "profile" : "level0",
+      "width" : 8000,
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917",
+      "type" : "ImageService3",
+      "@context" : "http://iiif.io/api/image/3/context.json",
+      "height" : 6655
+    } ]
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/qu2zuypuppg-maod4fpv/canvas/trv60l3ghjj-maodbewt",
+    "type" : "Canvas",
+    "height" : 6655,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "Casting Light on Digital Ghosts" ]
+    },
+    "summary" : {
+      "en" : [ "Photos from Activity 1: Casting Light on Digital Ghosts at the Encountering Digital Collections symposium on 17/09/2024." ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/full/500,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 416,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/qu2zuypuppg-maod4fpv/canvas/trv60l3ghjj-maodbewt/annotation-page/z3uzdlxvgp-maodbewt",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/qu2zuypuppg-maod4fpv/annotation/9mxaemwkbv5-maodbewt",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/qu2zuypuppg-maod4fpv/canvas/trv60l3ghjj-maodbewt",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 6655,
+          "width" : 8000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 208
+            }, {
+              "width" : 500,
+              "height" : 416
+            }, {
+              "width" : 1000,
+              "height" : 832
+            }, {
+              "width" : 2000,
+              "height" : 1664
+            }, {
+              "width" : 4000,
+              "height" : 3328
+            }, {
+              "width" : 8000,
+              "height" : 6655
+            } ],
+            "profile" : "level0",
+            "width" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 6655
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}

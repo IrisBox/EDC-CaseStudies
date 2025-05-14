@@ -41,5 +41,11 @@
       "en" : [ "EDC-Cyanotypes" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-Cyanotyping",
+    "label" : {
+      "en" : [ "Cyanotyping" ]
+    },
+    "type" : "Manifest"
   } ]
 }

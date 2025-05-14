@@ -738,6 +738,87 @@
             ]
         },
         {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Cyanotyping-20240917"
+                ]
+            },
+            "height": 6655,
+            "width": 8000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 250,
+                                                "height": 208
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 416
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 832
+                                            },
+                                            {
+                                                "width": 2000,
+                                                "height": 1664
+                                            },
+                                            {
+                                                "width": 4000,
+                                                "height": 3328
+                                            },
+                                            {
+                                                "width": 8000,
+                                                "height": 6655
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 8000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 6655
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/canvas/",
             "type": "Canvas",
             "label": {

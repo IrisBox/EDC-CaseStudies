@@ -35,5 +35,11 @@
       "en" : [ "EDC: Big Me, Little Me" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-Cyanotypes.json",
+    "label" : {
+      "en" : [ "EDC-Cyanotypes" ]
+    },
+    "type" : "Manifest"
   } ]
 }

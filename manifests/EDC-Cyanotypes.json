@@ -1,0 +1,188 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-Cyanotypes.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "EDC-Cyanotypes" ]
+  },
+  "summary" : {
+    "en" : [ "Activity 1: Casting Light on Digital Ghosts, at the Encountering Digital Collections symposium on 17/09/2024. A visual record consisting of scanned cyanotype prints on fabric and paper media." ]
+  },
+  "thumbnail" : [ {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/full/max/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 8000,
+    "width" : 8000,
+    "service" : [ {
+      "tiles" : [ {
+        "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+        "width" : 1024,
+        "height" : 1024
+      } ],
+      "protocol" : "http://iiif.io/api/image",
+      "sizes" : [ {
+        "width" : 250,
+        "height" : 250
+      }, {
+        "width" : 500,
+        "height" : 500
+      }, {
+        "width" : 1000,
+        "height" : 1000
+      }, {
+        "width" : 2000,
+        "height" : 2000
+      }, {
+        "width" : 4000,
+        "height" : 4000
+      }, {
+        "width" : 8000,
+        "height" : 8000
+      } ],
+      "profile" : "level0",
+      "width" : 8000,
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a",
+      "type" : "ImageService3",
+      "@context" : "http://iiif.io/api/image/3/context.json",
+      "height" : 8000
+    } ]
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/i6fn6tn6c0c-maoae701/canvas/5s2ghr971zg-maoan745",
+    "type" : "Canvas",
+    "height" : 8000,
+    "width" : 8000,
+    "label" : {
+      "en" : [ "Fabric Cyanotypes" ]
+    },
+    "summary" : {
+      "en" : [ "Cyanotypes created on fabric media by attendees of the EDC Symposium" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/full/500,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 500,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/i6fn6tn6c0c-maoae701/canvas/5s2ghr971zg-maoan745/annotation-page/fc99fpl6ioc-maoan745",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/i6fn6tn6c0c-maoae701/annotation/adcms36yy1l-maoan744",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/i6fn6tn6c0c-maoae701/canvas/5s2ghr971zg-maoan745",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8000,
+          "width" : 8000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 250
+            }, {
+              "width" : 500,
+              "height" : 500
+            }, {
+              "width" : 1000,
+              "height" : 1000
+            }, {
+              "width" : 2000,
+              "height" : 2000
+            }, {
+              "width" : 4000,
+              "height" : 4000
+            }, {
+              "width" : 8000,
+              "height" : 8000
+            } ],
+            "profile" : "level0",
+            "width" : 8000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8000
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/i6fn6tn6c0c-maoae701/canvas/w5w1rlz8mvn-maoaoz7n",
+    "type" : "Canvas",
+    "height" : 8750,
+    "width" : 10000,
+    "label" : {
+      "en" : [ "Paper Cyanotypes" ]
+    },
+    "summary" : {
+      "en" : [ "Cyanotypes created on paper media by attendees of the EDC Symposium" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/full/313,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 274,
+      "width" : 313
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/i6fn6tn6c0c-maoae701/canvas/w5w1rlz8mvn-maoaoz7n/annotation-page/grhd6uv0gnw-maoaoz7n",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/i6fn6tn6c0c-maoae701/annotation/qlyegh0bo2r-maoaoz7n",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/i6fn6tn6c0c-maoae701/canvas/w5w1rlz8mvn-maoaoz7n",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8750,
+          "width" : 10000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 313,
+              "height" : 274
+            }, {
+              "width" : 625,
+              "height" : 547
+            }, {
+              "width" : 1250,
+              "height" : 1094
+            }, {
+              "width" : 2500,
+              "height" : 2188
+            }, {
+              "width" : 5000,
+              "height" : 4375
+            }, {
+              "width" : 10000,
+              "height" : 8750
+            } ],
+            "profile" : "level0",
+            "width" : 10000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 8750
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}

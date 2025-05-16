@@ -1,0 +1,153 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-Walking.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "EDC Walking" ]
+  },
+  "summary" : {
+    "en" : [ "Photographs taken during 'Activity 3: Walking with Constable; A Cambridge Edition' at the Encountering Digital Collections symposium, on 18/09/2024. Photos courtesy of CRASSH (©Judith Weik), and attendees of the EDC Symposium, digitised collections from Cambridge University Library and the Fitzwilliam Museum (CC-BY-NC)." ]
+  },
+  "thumbnail" : [ {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking/full/max/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 250,
+    "width" : 250,
+    "service" : [ {
+      "tiles" : [ {
+        "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+        "width" : 1024,
+        "height" : 1024
+      } ],
+      "protocol" : "http://iiif.io/api/image",
+      "sizes" : [ {
+        "width" : 313,
+        "height" : 313
+      }, {
+        "width" : 625,
+        "height" : 625
+      }, {
+        "width" : 1250,
+        "height" : 1250
+      }, {
+        "width" : 2500,
+        "height" : 2500
+      }, {
+        "width" : 5000,
+        "height" : 5000
+      }, {
+        "width" : 10000,
+        "height" : 10000
+      } ],
+      "profile" : "level0",
+      "width" : 10000,
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking",
+      "type" : "ImageService3",
+      "@context" : "http://iiif.io/api/image/3/context.json",
+      "height" : 10000
+    } ]
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/mtyz3br695k-maqtu0jg/canvas/eg5y58xqchu-maqtvrsg",
+    "type" : "Canvas",
+    "height" : 10000,
+    "width" : 10000,
+    "label" : {
+      "en" : [ "EDC Walking" ]
+    },
+    "summary" : {
+      "en" : [ "Photographs taken during 'Activity 3: Walking with Constable; A Cambridge Edition' at the Encountering Digital Collections symposium, on 18/09/2024." ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking/full/max/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 250,
+      "width" : 250,
+      "service" : [ {
+        "tiles" : [ {
+          "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+          "width" : 1024,
+          "height" : 1024
+        } ],
+        "protocol" : "http://iiif.io/api/image",
+        "sizes" : [ {
+          "width" : 313,
+          "height" : 313
+        }, {
+          "width" : 625,
+          "height" : 625
+        }, {
+          "width" : 1250,
+          "height" : 1250
+        }, {
+          "width" : 2500,
+          "height" : 2500
+        }, {
+          "width" : 5000,
+          "height" : 5000
+        }, {
+          "width" : 10000,
+          "height" : 10000
+        } ],
+        "profile" : "level0",
+        "width" : 10000,
+        "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking",
+        "type" : "ImageService3",
+        "@context" : "http://iiif.io/api/image/3/context.json",
+        "height" : 10000
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/mtyz3br695k-maqtu0jg/canvas/eg5y58xqchu-maqtvrsg/annotation-page/lf7ftflzp48-maqtvrsg",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/mtyz3br695k-maqtu0jg/canvas/eg5y58xqchu-maqtvrsg/annotation-page/lf7ftflzp48-maqtvrsg/annotation/lsa8v31wjw-maqw40q0",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/mtyz3br695k-maqtu0jg/canvas/eg5y58xqchu-maqtvrsg",
+        "body" : {
+          "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 250,
+          "width" : 250,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 313,
+              "height" : 313
+            }, {
+              "width" : 625,
+              "height" : 625
+            }, {
+              "width" : 1250,
+              "height" : 1250
+            }, {
+              "width" : 2500,
+              "height" : 2500
+            }, {
+              "width" : 5000,
+              "height" : 5000
+            }, {
+              "width" : 10000,
+              "height" : 10000
+            } ],
+            "profile" : "level0",
+            "width" : 10000,
+            "id" : "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 10000
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}

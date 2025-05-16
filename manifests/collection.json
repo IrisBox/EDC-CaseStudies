@@ -47,5 +47,11 @@
       "en" : [ "Cyanotyping" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://IrisBox.github.io/EDC-CaseStudies/manifests/EDC-Walking.json",
+    "label" : {
+      "en" : [ "EDC Walking" ]
+    },
+    "type" : "Manifest"
   } ]
 }

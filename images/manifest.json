@@ -414,6 +414,87 @@
             ]
         },
         {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "EDC-Walking"
+                ]
+            },
+            "height": 10000,
+            "width": 10000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 313,
+                                                "height": 313
+                                            },
+                                            {
+                                                "width": 625,
+                                                "height": 625
+                                            },
+                                            {
+                                                "width": 1250,
+                                                "height": 1250
+                                            },
+                                            {
+                                                "width": 2500,
+                                                "height": 2500
+                                            },
+                                            {
+                                                "width": 5000,
+                                                "height": 5000
+                                            },
+                                            {
+                                                "width": 10000,
+                                                "height": 10000
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 10000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 10000
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Walking/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-03/canvas/",
             "type": "Canvas",
             "label": {

@@ -9,26 +9,26 @@
     },
     "items": [
         {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/canvas/",
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "EDC-Edinburgh-01"
+                    "EDC-Edinburgh-04"
                 ]
             },
             "height": 8000,
             "width": 8000,
             "items": [
                 {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/annotation/AnnoPage",
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/annotation/",
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/full/max/0/default.jpg",
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -75,7 +75,7 @@
                                         ],
                                         "profile": "level0",
                                         "width": 8000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01",
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04",
                                         "type": "ImageService3",
                                         "@context": "http://iiif.io/api/image/3/context.json",
                                         "height": 8000
@@ -83,33 +83,114 @@
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/canvas/"
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/canvas/"
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/canvas/",
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "EDC-Symposium-Cyanotypes-Paper-000"
+                    "Cyanotyping-20240917"
                 ]
             },
-            "height": 8750,
-            "width": 10000,
+            "height": 6655,
+            "width": 8000,
             "items": [
                 {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/annotation/AnnoPage",
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/annotation/",
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/full/max/0/default.jpg",
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 250,
+                                                "height": 208
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 416
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 832
+                                            },
+                                            {
+                                                "width": 2000,
+                                                "height": 1664
+                                            },
+                                            {
+                                                "width": 4000,
+                                                "height": 3328
+                                            },
+                                            {
+                                                "width": 8000,
+                                                "height": 6655
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 8000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 6655
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "EDC-Symposium-BigMe-LittleMe-000"
+                ]
+            },
+            "height": 8000,
+            "width": 10000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -131,113 +212,32 @@
                                         "sizes": [
                                             {
                                                 "width": 313,
-                                                "height": 274
-                                            },
-                                            {
-                                                "width": 625,
-                                                "height": 547
-                                            },
-                                            {
-                                                "width": 1250,
-                                                "height": 1094
-                                            },
-                                            {
-                                                "width": 2500,
-                                                "height": 2188
-                                            },
-                                            {
-                                                "width": 5000,
-                                                "height": 4375
-                                            },
-                                            {
-                                                "width": 10000,
-                                                "height": 8750
-                                            }
-                                        ],
-                                        "profile": "level0",
-                                        "width": 10000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000",
-                                        "type": "ImageService3",
-                                        "@context": "http://iiif.io/api/image/3/context.json",
-                                        "height": 8750
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/canvas/"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/canvas/",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "EDC-Edinburgh-02"
-                ]
-            },
-            "height": 8000,
-            "width": 8000,
-            "items": [
-                {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/annotation/AnnoPage",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/annotation/",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/full/max/0/default.jpg",
-                                "type": "Image",
-                                "service": [
-                                    {
-                                        "tiles": [
-                                            {
-                                                "scaleFactors": [
-                                                    32,
-                                                    16,
-                                                    8,
-                                                    4,
-                                                    2,
-                                                    1
-                                                ],
-                                                "width": 1024,
-                                                "height": 1024
-                                            }
-                                        ],
-                                        "protocol": "http://iiif.io/api/image",
-                                        "sizes": [
-                                            {
-                                                "width": 250,
                                                 "height": 250
                                             },
                                             {
-                                                "width": 500,
+                                                "width": 625,
                                                 "height": 500
                                             },
                                             {
-                                                "width": 1000,
+                                                "width": 1250,
                                                 "height": 1000
                                             },
                                             {
-                                                "width": 2000,
+                                                "width": 2500,
                                                 "height": 2000
                                             },
                                             {
-                                                "width": 4000,
+                                                "width": 5000,
                                                 "height": 4000
                                             },
                                             {
-                                                "width": 8000,
+                                                "width": 10000,
                                                 "height": 8000
                                             }
                                         ],
                                         "profile": "level0",
-                                        "width": 8000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02",
+                                        "width": 10000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000",
                                         "type": "ImageService3",
                                         "@context": "http://iiif.io/api/image/3/context.json",
                                         "height": 8000
@@ -245,7 +245,7 @@
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/canvas/"
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/canvas/"
                         }
                     ]
                 }
@@ -327,87 +327,6 @@
                                 "format": "image/jpeg"
                             },
                             "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Mandala-Ellipsis-000/canvas/"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/canvas/",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "EDC-Symposium-Cyanotypes-Fabric-000a"
-                ]
-            },
-            "height": 8000,
-            "width": 8000,
-            "items": [
-                {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/annotation/AnnoPage",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/annotation/",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/full/max/0/default.jpg",
-                                "type": "Image",
-                                "service": [
-                                    {
-                                        "tiles": [
-                                            {
-                                                "scaleFactors": [
-                                                    32,
-                                                    16,
-                                                    8,
-                                                    4,
-                                                    2,
-                                                    1
-                                                ],
-                                                "width": 1024,
-                                                "height": 1024
-                                            }
-                                        ],
-                                        "protocol": "http://iiif.io/api/image",
-                                        "sizes": [
-                                            {
-                                                "width": 250,
-                                                "height": 250
-                                            },
-                                            {
-                                                "width": 500,
-                                                "height": 500
-                                            },
-                                            {
-                                                "width": 1000,
-                                                "height": 1000
-                                            },
-                                            {
-                                                "width": 2000,
-                                                "height": 2000
-                                            },
-                                            {
-                                                "width": 4000,
-                                                "height": 4000
-                                            },
-                                            {
-                                                "width": 8000,
-                                                "height": 8000
-                                            }
-                                        ],
-                                        "profile": "level0",
-                                        "width": 8000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a",
-                                        "type": "ImageService3",
-                                        "@context": "http://iiif.io/api/image/3/context.json",
-                                        "height": 8000
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/canvas/"
                         }
                     ]
                 }
@@ -576,6 +495,168 @@
             ]
         },
         {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "EDC-Edinburgh-02"
+                ]
+            },
+            "height": 8000,
+            "width": 8000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 250,
+                                                "height": 250
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 500
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 1000
+                                            },
+                                            {
+                                                "width": 2000,
+                                                "height": 2000
+                                            },
+                                            {
+                                                "width": 4000,
+                                                "height": 4000
+                                            },
+                                            {
+                                                "width": 8000,
+                                                "height": 8000
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 8000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 8000
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-02/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/SeeingRed/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "SeeingRed"
+                ]
+            },
+            "height": 2000,
+            "width": 2000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/SeeingRed/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/SeeingRed/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/SeeingRed/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 63,
+                                                "height": 63
+                                            },
+                                            {
+                                                "width": 125,
+                                                "height": 125
+                                            },
+                                            {
+                                                "width": 250,
+                                                "height": 250
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 500
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 1000
+                                            },
+                                            {
+                                                "width": 2000,
+                                                "height": 2000
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2000,
+                                        "@id": "https://IrisBox.github.io/EDC-CaseStudies/images/SeeingRed",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2000,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/SeeingRed/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-06/canvas/",
             "type": "Canvas",
             "label": {
@@ -657,26 +738,26 @@
             ]
         },
         {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/canvas/",
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "EDC-Edinburgh-04"
+                    "EDC-Edinburgh-01"
                 ]
             },
             "height": 8000,
             "width": 8000,
             "items": [
                 {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/annotation/AnnoPage",
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/annotation/",
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/full/max/0/default.jpg",
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -723,7 +804,7 @@
                                         ],
                                         "profile": "level0",
                                         "width": 8000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04",
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01",
                                         "type": "ImageService3",
                                         "@context": "http://iiif.io/api/image/3/context.json",
                                         "height": 8000
@@ -731,7 +812,169 @@
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-04/canvas/"
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-01/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "EDC-Symposium-Cyanotypes-Fabric-000a"
+                ]
+            },
+            "height": 8000,
+            "width": 8000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 250,
+                                                "height": 250
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 500
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 1000
+                                            },
+                                            {
+                                                "width": 2000,
+                                                "height": 2000
+                                            },
+                                            {
+                                                "width": 4000,
+                                                "height": 4000
+                                            },
+                                            {
+                                                "width": 8000,
+                                                "height": 8000
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 8000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 8000
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Fabric-000a/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "EDC-Symposium-Cyanotypes-Paper-000"
+                ]
+            },
+            "height": 8750,
+            "width": 10000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 313,
+                                                "height": 274
+                                            },
+                                            {
+                                                "width": 625,
+                                                "height": 547
+                                            },
+                                            {
+                                                "width": 1250,
+                                                "height": 1094
+                                            },
+                                            {
+                                                "width": 2500,
+                                                "height": 2188
+                                            },
+                                            {
+                                                "width": 5000,
+                                                "height": 4375
+                                            },
+                                            {
+                                                "width": 10000,
+                                                "height": 8750
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 10000,
+                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 8750
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-Cyanotypes-Paper-000/canvas/"
                         }
                     ]
                 }
@@ -813,168 +1056,6 @@
                                 "format": "image/jpeg"
                             },
                             "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Edinburgh-05/canvas/"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/canvas/",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Cyanotyping-20240917"
-                ]
-            },
-            "height": 6655,
-            "width": 8000,
-            "items": [
-                {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/annotation/AnnoPage",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/annotation/",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/full/max/0/default.jpg",
-                                "type": "Image",
-                                "service": [
-                                    {
-                                        "tiles": [
-                                            {
-                                                "scaleFactors": [
-                                                    32,
-                                                    16,
-                                                    8,
-                                                    4,
-                                                    2,
-                                                    1
-                                                ],
-                                                "width": 1024,
-                                                "height": 1024
-                                            }
-                                        ],
-                                        "protocol": "http://iiif.io/api/image",
-                                        "sizes": [
-                                            {
-                                                "width": 250,
-                                                "height": 208
-                                            },
-                                            {
-                                                "width": 500,
-                                                "height": 416
-                                            },
-                                            {
-                                                "width": 1000,
-                                                "height": 832
-                                            },
-                                            {
-                                                "width": 2000,
-                                                "height": 1664
-                                            },
-                                            {
-                                                "width": 4000,
-                                                "height": 3328
-                                            },
-                                            {
-                                                "width": 8000,
-                                                "height": 6655
-                                            }
-                                        ],
-                                        "profile": "level0",
-                                        "width": 8000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917",
-                                        "type": "ImageService3",
-                                        "@context": "http://iiif.io/api/image/3/context.json",
-                                        "height": 6655
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/Cyanotyping-20240917/canvas/"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/canvas/",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "EDC-Symposium-BigMe-LittleMe-000"
-                ]
-            },
-            "height": 8000,
-            "width": 10000,
-            "items": [
-                {
-                    "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/annotation/AnnoPage",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/annotation/",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/full/max/0/default.jpg",
-                                "type": "Image",
-                                "service": [
-                                    {
-                                        "tiles": [
-                                            {
-                                                "scaleFactors": [
-                                                    32,
-                                                    16,
-                                                    8,
-                                                    4,
-                                                    2,
-                                                    1
-                                                ],
-                                                "width": 1024,
-                                                "height": 1024
-                                            }
-                                        ],
-                                        "protocol": "http://iiif.io/api/image",
-                                        "sizes": [
-                                            {
-                                                "width": 313,
-                                                "height": 250
-                                            },
-                                            {
-                                                "width": 625,
-                                                "height": 500
-                                            },
-                                            {
-                                                "width": 1250,
-                                                "height": 1000
-                                            },
-                                            {
-                                                "width": 2500,
-                                                "height": 2000
-                                            },
-                                            {
-                                                "width": 5000,
-                                                "height": 4000
-                                            },
-                                            {
-                                                "width": 10000,
-                                                "height": 8000
-                                            }
-                                        ],
-                                        "profile": "level0",
-                                        "width": 10000,
-                                        "id": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000",
-                                        "type": "ImageService3",
-                                        "@context": "http://iiif.io/api/image/3/context.json",
-                                        "height": 8000
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://IrisBox.github.io/EDC-CaseStudies/images/EDC-Symposium-BigMe-LittleMe-000/canvas/"
                         }
                     ]
                 }
